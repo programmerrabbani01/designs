@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="imageSlider">
+      <div class="imageSliderInner">
+        <div class="imageSliderInnerHeader">
+          <h2>INFLUENCER PICKS</h2>
+        </div>
+
+        <div class="imageSliderInnerSliders">
+          <div class="imageSliderInnerSlidersItems imgSlider">
+            <a href="">
+              <img
+                class="desktopImg"
+                src="https://i.ibb.co/THKX2LQ/1-e4711f05-bcb1-4203-9844-bbb197d5fdfc-800x.png"
+                alt=""
+              />
+            </a>
+
+            <a href="">
+              <img
+                class="desktopImg"
+                src="https://i.ibb.co/THKX2LQ/1-e4711f05-bcb1-4203-9844-bbb197d5fdfc-800x.png"
+                alt=""
+              />
+            </a>
+
+            <a href="">
+              <img
+                class="desktopImg"
+                src="https://i.ibb.co/THKX2LQ/1-e4711f05-bcb1-4203-9844-bbb197d5fdfc-800x.png"
+                alt=""
+              />
+            </a>
+
+            <a href="">
+              <img
+                class="desktopImg"
+                src="https://i.ibb.co/THKX2LQ/1-e4711f05-bcb1-4203-9844-bbb197d5fdfc-800x.png"
+                alt=""
+              />
+            </a>
+
+            <a href="">
+              <img
+                class="desktopImg"
+                src="https://i.ibb.co/THKX2LQ/1-e4711f05-bcb1-4203-9844-bbb197d5fdfc-800x.png"
+                alt=""
+              />
+            </a>
+
+            <a href="">
+              <img
+                class="desktopImg"
+                src="https://i.ibb.co/2MC5Yjc/4-bfbbea97-a820-48c7-ba5f-8f6b9996ca77-800x.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+
+    <script>
+      $(".imgSlider").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        accessibility: true,
+        autoplay: false,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+              arrows: false,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>

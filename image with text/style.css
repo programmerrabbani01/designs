@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#imageAndText {
+  margin-bottom: 100px;
+}
+
+#imageAndText .imageAndTextInner {
+  padding: 0px 40px;
+}
+
+#imageAndText .imageAndTextInner .imageAndTextHeader h2 {
+  font-size: 42px;
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 42px;
+  margin-bottom: 40px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+#imageAndText .imageAndTextInner .imageAndTextTop {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopLeft {
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+}
+#imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopRight {
+  flex: 0 0 37%;
+}
+
+#imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopLeftPara p {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  margin: 54px 0;
+  line-height: 28px;
+  color: #666;
+}
+
+#imageAndText
+  .imageAndTextInner
+  .imageAndTextTop
+  .imageAndTextTopLeftImage
+  img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+#imageAndText
+  .imageAndTextInner
+  .imageAndTextTop
+  .imageAndTextTopRightImage
+  .mobileImg {
+  display: none;
+}
+
+#imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopRightImage {
+  width: 100%;
+  height: 100%;
+}
+#imageAndText
+  .imageAndTextInner
+  .imageAndTextTop
+  .imageAndTextTopRightImage
+  img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  #imageAndText .imageAndTextInner .imageAndTextHeader h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  #imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopLeftPara p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 10px 0;
+  }
+  #imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopLeft {
+    flex: 0 0 49%;
+  }
+  #imageAndText
+    .imageAndTextInner
+    .imageAndTextTop
+    .imageAndTextTopRightImage
+    .desktopImg {
+    display: none;
+  }
+  #imageAndText
+    .imageAndTextInner
+    .imageAndTextTop
+    .imageAndTextTopRightImage
+    .mobileImg {
+    display: block;
+  }
+  #imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopRight {
+    flex: 0 0 49%;
+  }
+  #imageAndText .imageAndTextInner .imageAndTextTop .imageAndTextTopLeftImage {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="reviewwidget">
+      <div class="review_content">
+        <div class="review_box">
+          <div class="review_core__row--columns">
+            {% for block in section.blocks %}
+            <div class="beae-column-review">
+              <div class="core__column--wrapper-review">
+                <div class="reviewoToppart">
+                  {% if block.settings.topimage != blank %}
+                  <div class="reviewimageBox">
+                    <img
+                      style="height: {{ block.settings.topimagehight }}px;"
+                      src="{{ block.settings.topimage | img_url: '800x800' }}"
+                      alt="Rectangle_39_1"
+                    />
+                  </div>
+                  {% else %}
+                  <video
+                    style="height: {{ block.settings.topvideohight }}px;"
+                    id="background-vid-logo"
+                    autoplay="true"
+                    muted="muted"
+                    playsinline="playsinline"
+                    data-wf-ignore="true"
+                    loop=""
+                    __idm_id__="14393346"
+                  >
+                    <source
+                      src="{{ block.settings.topvideo }}"
+                      data-wf-ignore="true"
+                    />
+                  </video>
+                  {% endif %}
+                </div>
+                <div
+                  style="border: 1px solid #dedede"
+                  class="reviewobottompart"
+                >
+                  {% if block.settings.bottomvideo != blank %}
+                  <video
+                    style="height: {{ block.settings.bottomvideohight }}px;"
+                    id="background-vid-logo"
+                    autoplay="true"
+                    muted="muted"
+                    playsinline="playsinline"
+                    data-wf-ignore="true"
+                    loop=""
+                    __idm_id__="14393346"
+                  >
+                    <source
+                      src="{{ block.settings.bottomvideo }}"
+                      data-wf-ignore="true"
+                    />
+                  </video>
+                  {% else %}
+                  <div id="reviewTextboxarea">
+                    <div id="reviewTexticons">
+                      <img
+                        src="https://cdn.shopify.com/s/files/1/0726/1401/9369/files/Rating.svg?v=1688413766&amp;width=original&amp;crop=center"
+                        alt="Rating"
+                        width="117"
+                        height="22"
+                      />
+                    </div>
+                    <div id="reviewTextcontact">
+                      {{ block.settings.bottomtextarea }}
+                    </div>
+                    <div
+                      id="reviewTextauth"
+                      style="margin-top: {{ block.settings.authTopMergin }}px;"
+                    >
+                      - {{ block.settings.bottomtext }}
+                    </div>
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

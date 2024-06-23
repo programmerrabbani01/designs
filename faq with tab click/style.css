@@ -1,0 +1,178 @@
+<style data-shopify="">
+.faq-header-{{ section.id }}{
+    
+    background-color: ;
+  
+  padding: 70px 20px;
+  padding-bottom: 0;
+}
+.faq-header-{{ section.id }} .faq-header-content,
+.faq-header-{{ section.id }} .links-wrp{
+  max-width:1200px;
+  margin:0 auto;
+}
+.faq-header-{{ section.id }} .faq-header-content{
+  
+    padding-bottom:30px;
+  
+}
+.faq-header-{{ section.id }} h1,
+.faq-header-{{ section.id }} p{
+  color:#065142;
+  text-align:center;
+}
+.faq-header-{{ section.id }} h1{
+  font-size:50px;
+  margin-bottom:10px;
+  text-transform:uppercase;
+}
+.faq-header-{{ section.id }} p{
+  font-size:16px;
+}
+.faq-header-{{ section.id }} .links-wrp{
+  border-top:4px solid #065142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.faq-header-{{ section.id }} .links-wrp a{
+  text-decoration: none;
+  font-family: 'Korolev-Heavy';
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #00FABE;
+  padding: 15px;
+  display: block;
+}
+.shopify-section.section.faq-dropdowns{
+  padding: 0 20px;
+}
+.shopify-section.section.faq-dropdowns .faq-wrp{
+  border-top: 4px solid #065142;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .faq-header-{{ section.id }}{
+    padding-bottom: 0;
+  }
+  .faq-header-{{ section.id }} .faq-header-content{
+    
+      padding-bottom:50px;
+    
+  }
+  .faq-header-{{ section.id }} h1{
+    font-size:70px;
+    margin-bottom:20px;
+  }
+  .faq-header-{{ section.id }} p{
+    font-size:20px;
+  }
+  .shopify-section.section.faq-dropdowns{
+    padding: 0 30px;
+  }
+}
+.shopify-section.section.faq-dropdowns:last-child {
+  margin-bottom: 70px;
+}
+
+</style>
+/* ********************************************** */
+<style data-shopify="">
+  .faq-dropdowns {
+     background-color: ;
+  }
+
+.faq-{{ section.id }}{
+  padding:20px;
+}
+.faq-{{ section.id }} .faq-content{
+  max-width:800px;
+  margin:0 auto;
+}
+.faq-{{ section.id }} h1,
+.faq-{{ section.id }} p{
+  line-height: 1;
+  letter-spacing: 0;
+}
+.faq-{{ section.id }} .faq-header{
+  margin-bottom: 20px;
+}
+.faq-{{ section.id }} .faq-header h1{
+  font-size:25px;
+  text-transform: uppercase;
+}
+.faq-{{ section.id }} .drpdwn-content {
+  width: 100%;
+  margin-left: 10px;
+}
+.faq-{{ section.id }} .plus-minus {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.faq-{{ section.id }} .plus-minus span{
+  border-bottom: 3px solid #065142;
+  width: 20px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration:.1s;
+}
+.faq-{{ section.id }} .plus-minus span.first-line{
+  top: 20px;
+  left: 7px;
+}
+.faq-{{ section.id }} .plus-minus span.second-line{
+  transform:rotate(90deg);
+  transition-duration:.1s;
+  top: 20px;
+  left: 7px;
+}
+.faq-{{ section.id }} .faq-drpdwn{
+  background-color:#fff1da;
+  color:#065142;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.faq-{{ section.id }} .faq-drpdwn.active .second-line{
+  transform: rotate(180deg);
+  transition-duration:.3s;
+  <!-- display:none; -->
+}
+.faq-{{ section.id }} .drpdwn-title {
+  font-size:16px;
+  text-transform: uppercase;
+  min-height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+}
+.faq-{{ section.id }} .drpdwn-copy {
+  margin-top: 15px;
+  display: none;
+}
+.faq-{{ section.id }} .drpdwn-copy p{
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.faq-{{ section.id }} .drpdwn-copy a{
+  font-size:16px;
+}
+@media screen and (min-width: 640px) {
+  .faq-{{ section.id }} .faq-header h1{
+    font-size:35px;
+  }
+  .faq-{{ section.id }} .drpdwn-title {
+    font-size:20px;
+  }
+}</style>

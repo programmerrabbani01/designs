@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#verifiedTravelHers {
+  padding: 20px 80px;
+  overflow: hidden;
+}
+
+#verifiedTravelHers .verifiedTravelHersHeader {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+#verifiedTravelHers .verifiedTravelHersHeader h2 {
+  font-size: 39px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.78px;
+  margin: 0;
+  padding: 0;
+}
+
+#verifiedTravelHers .verifiedTravelHersItems {
+  display: flex;
+}
+
+#verifiedTravelHers .verifiedTravelHersItems .verifiedTravelHersItem {
+  width: 33.3333%;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner {
+  background-color: #f7f7f7;
+  text-align: center;
+  border-radius: 24px;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemImage {
+  border-radius: 24px 24px 0px 0px;
+  overflow: hidden;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemImage
+  img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo {
+  padding: 1.25rem 2rem 2rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo
+  .stars {
+  font-size: 22px;
+  letter-spacing: 0.96px;
+  line-height: 26.4px;
+  color: #ffd700;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo
+  .quotes {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  right: 32px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  margin: 0 !important;
+  background-color: #9bc6d1;
+  color: #f3f6f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo
+  .quotes
+  svg {
+  width: 55%;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo
+  h3 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 18.85px;
+  line-height: 26.1px;
+  letter-spacing: 0.78px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo
+  p.para {
+  font-size: 16px;
+  line-height: 28.8px;
+  letter-spacing: 0.96px;
+  font-family: "Harmonia Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+#verifiedTravelHers
+  .verifiedTravelHersItems
+  .verifiedTravelHersItem
+  .verifiedTravelHersItemInner
+  .verifiedTravelHersItemInfo
+  p.author {
+  margin-top: 12px;
+  padding-top: 16px;
+  border-top: solid 1px rgba(54, 50, 50, 0.06);
+  font-size: 14px;
+  line-height: 15.4px;
+  letter-spacing: 0.96px;
+  font-family: "Harmonia Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* arrows */
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #000;
+}
+
+.slick-prev {
+  left: -40px;
+  z-index: 1;
+}
+.slick-next {
+  right: -30px;
+}
+
+.slick-dots li {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  font-size: 0.6rem;
+  line-height: 0;
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 0.6rem;
+  line-height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 750px) {
+  #verifiedTravelHers {
+    padding: 15px;
+  }
+
+  .slick-prev {
+    left: 40%;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 41%;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 20px;
+  }
+
+  #verifiedTravelHers .verifiedTravelHersHeader h2 {
+    font-size: 29.25px;
+    line-height: 36px;
+    letter-spacing: 0.78px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-prev {
+    left: 30%;
+  }
+  .slick-next {
+    right: 30%;
+  }
+}

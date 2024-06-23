@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <title>Video Slider</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="videoSlider">
+      <div class="videoSliderHeader">
+        <div class="videoSliderHeaderInner">
+          <h2>🧳Travel Easy ✈️</h2>
+        </div>
+      </div>
+
+      <div class="videoSliderItems videoSlider">
+        <div class="videoSliderItem">
+          <video autoplay loop muted>
+            <source
+              src="https://cdn.shopify.com/videos/c/vp/cda81af7f59d4c93ab45c610f9ef3d30/cda81af7f59d4c93ab45c610f9ef3d30.HD-720p-2.1Mbps-27126863.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+
+        <div class="videoSliderItem">
+          <video autoplay loop muted>
+            <source
+              src="https://cdn.shopify.com/videos/c/vp/cda81af7f59d4c93ab45c610f9ef3d30/cda81af7f59d4c93ab45c610f9ef3d30.HD-720p-2.1Mbps-27126863.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+
+        <div class="videoSliderItem">
+          <video autoplay loop muted>
+            <source
+              src="https://cdn.shopify.com/videos/c/vp/cda81af7f59d4c93ab45c610f9ef3d30/cda81af7f59d4c93ab45c610f9ef3d30.HD-720p-2.1Mbps-27126863.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+
+        <div class="videoSliderItem">
+          <video autoplay loop muted>
+            <source
+              src="https://cdn.shopify.com/videos/c/vp/cda81af7f59d4c93ab45c610f9ef3d30/cda81af7f59d4c93ab45c610f9ef3d30.HD-720p-2.1Mbps-27126863.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".videoSlider").slick({
+          infinite: false,
+          slidesToShow: 3, // Adjust the number of slides to show at once
+          slidesToScroll: 1, // Adjust the number of slides to scroll at a time
+          autoplay: false, // Set to true for autoplay
+          autoplaySpeed: 5000, // Set autoplay speed in milliseconds
+          arrows: true, // Hide navigation arrows
+          pauseOnHover: false, // Disable pausing on hover
+          pauseOnFocus: false, // Disable pausing on focus
+        });
+      });
+    </script>
+  </body>
+</html>

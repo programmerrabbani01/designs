@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+
+    <title>Marquee Example</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="marqueeSlider">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true" ref="inner">
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>
+            NO ANIMAL TESTING
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>ECO CERTIFIED
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>ALLERGY FRIENDLY
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>KERBSIDE RECYCLABLE
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>NO SMELL
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>NO NASTIES
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>REFILLABLE
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>PLANET FRIENDLY
+          </div>
+          <div class="marquee__part">
+            <i class="fa-thin fa-check"></i>PLASTIC RESCUE
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+
+    <script>
+      // Function to create the infinite marquee animation
+      function createMarqueeAnimation() {
+        const marquee = document.querySelector(".marquee__inner");
+        const marqueeParts = document.querySelectorAll(".marquee__part");
+        let repetitions = 6;
+
+        const isSafari = /^((?!chrome|android).)*safari/i.test(
+          navigator.userAgent
+        );
+
+        if (isSafari) {
+          repetitions = 40;
+        }
+
+        // Calculate the total width of the marquee
+        const totalWidth = marqueeParts.length * marqueeParts[0].offsetWidth;
+
+        // Duplicate the marquee content to create a longer loop
+        const marqueeContent = marquee.innerHTML;
+        marquee.innerHTML = marqueeContent.repeat(repetitions);
+
+        // Set the initial position of the marquee
+        gsap.set(marquee, { x: 0 }); // Start from the left side
+
+        // Create the marquee animation timeline
+        const timeline = gsap.to(marquee, {
+          x: -totalWidth * repetitions,
+          duration: 150, // Adjust this duration to control the speed of the marquee
+          ease: "linear",
+          repeat: -1,
+          onRepeat: () => {
+            gsap.set(marquee, { x: 0 }); // Reset to the left side when it repeats
+          },
+        });
+
+        return timeline;
+      }
+
+      // Initialize the marquee animation
+      const marqueeTimeline = createMarqueeAnimation();
+    </script>
+  </body>
+</html>

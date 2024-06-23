@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#marqueeSlider .marquee__part {
+  flex-shrink: 0;
+  padding: 0 4px;
+  font-smooth: always;
+  margin: 0 20px;
+}
+#marqueeSlider .marquee__part i {
+  width: 32px;
+  height: 32px;
+  font-size: 26px;
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+
+#marqueeSlider .marquee {
+  background-color: #017e51;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Epilogue";
+  line-height: 40px;
+  letter-spacing: 0.03rem;
+  position: relative;
+  overflow: hidden;
+}
+
+#marqueeSlider .marquee__inner {
+  -webkit-font-smoothing: antialiased;
+  width: fit-content;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* #marqueeSlider .spacer {
+  height: 150px;
+} */

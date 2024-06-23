@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#shopByCategory {
+}
+
+#shopByCategory .shopByCategoryHeader {
+  padding: 0px 8px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+#shopByCategory .shopByCategoryHeader h2 {
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  line-height: 30px;
+  color: #111;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+#shopByCategory .shopByCategoryTop {
+  padding: 0px 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#shopByCategory .shopByCategoryTop .shopByCategoryTopLeft {
+  flex: 0 0 calc(44% - 4px);
+}
+
+#shopByCategory .shopByCategoryTop .shopByCategoryTopLeft a img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: fill;
+  overflow: hidden;
+}
+
+#shopByCategory .shopByCategoryTop .shopByCategoryTopRight {
+  flex: 0 0 calc(56% - 4px);
+}
+
+#shopByCategory
+  .shopByCategoryTop
+  .shopByCategoryTopRight
+  .shopByCategoryTopRightTop {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+#shopByCategory
+  .shopByCategoryTop
+  .shopByCategoryTopRight
+  .shopByCategoryTopRightTop
+  a {
+  width: 100%;
+  display: block;
+}
+
+#shopByCategory
+  .shopByCategoryTop
+  .shopByCategoryTopRight
+  .shopByCategoryTopRightTop
+  a
+  img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#shopByCategory
+  .shopByCategoryTop
+  .shopByCategoryTopRight
+  .shopByCategoryTopRightBottom
+  a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#shopByCategory
+  .shopByCategoryTop
+  .shopByCategoryTopRight
+  .shopByCategoryTopRightBottom
+  a
+  img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+#shopByCategory .shopByCategoryBottom {
+  padding: 0px 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 8px;
+}
+#shopByCategory .shopByCategoryBottom .shopByCategoryBottomImage a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#shopByCategory .shopByCategoryBottom .shopByCategoryBottomImage a img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  #shopByCategory
+    .shopByCategoryTop
+    .shopByCategoryTopRight
+    .shopByCategoryTopRightTop {
+    gap: 5px;
+  }
+  #shopByCategory .shopByCategoryBottom {
+    gap: 5px;
+  }
+}

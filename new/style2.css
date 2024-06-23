@@ -1,0 +1,581 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bothExperience {
+}
+
+#bothExperience .bothExperienceInner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#bothExperience .bothExperienceInner .bothExperienceInnerWrapper {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner {
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage {
+  background: url("https://i.ibb.co/RggVjxB/The-Duo-Bg-Live-Free.jpg") no-repeat
+    scroll center center/cover;
+  /* min-height: 555px; */
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft {
+  width: 50%;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner {
+  padding: 50px;
+  min-height: 555px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerTitle {
+  margin-bottom: 265px;
+  width: 100%;
+  height: fit-content;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerTitle
+  h2 {
+  font-size: 83px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: -3px;
+  color: #fff;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerPara {
+  margin-top: 27px;
+  margin-bottom: 12px;
+  width: 100%;
+  height: fit-content;
+  font-family: PPCharlevoix-Regular;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-weight: 400;
+  color: #fff;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerButton {
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerButton
+  .bothExperienceIwBIBgImageInnerLeftInnerButtonInner {
+  display: flex;
+  justify-content: flex-start;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerButton
+  .bothExperienceIwBIBgImageInnerLeftInnerButtonInner
+  a {
+  font-style: normal;
+  text-decoration: none;
+  color: #4d4d4d;
+  background: #dff59a;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 26px;
+  padding: 12px 34px 12px 44px;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 28px;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerButton
+  .bothExperienceIwBIBgImageInnerLeftInnerButtonInner
+  a:hover {
+  background-color: #ffffff;
+  color: #4d4d4d;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerButton
+  .bothExperienceIwBIBgImageInnerLeftInnerButtonInner
+  a
+  span {
+  display: inline-flex;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerLeft
+  .bothExperienceIwBIBgImageInnerLeftInner
+  .bothExperienceIwBIBgImageInnerLeftInnerButton
+  .bothExperienceIwBIBgImageInnerLeftInnerButtonInner
+  a
+  span:nth-child(2)
+  svg {
+  width: 18px;
+  height: auto;
+}
+
+/* right */
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight {
+  width: 50%;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner {
+  padding: 50px;
+  min-height: 555px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerPara {
+  margin-top: 27px;
+  margin-bottom: 12px;
+  width: 100%;
+  height: fit-content;
+  font-family: PPCharlevoix-Regular;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-weight: 400;
+  text-align: right;
+  color: #fff;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerButton {
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerButton
+  .bothExperienceIwBIBgImageInnerRightInnerButtonInner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerButton
+  .bothExperienceIwBIBgImageInnerRightInnerButtonInner
+  a {
+  font-style: normal;
+  text-decoration: none;
+  color: #4d4d4d;
+  background: #dff59a;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 26px;
+  padding: 12px 34px 12px 44px;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 28px;
+}
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerButton
+  .bothExperienceIwBIBgImageInnerRightInnerButtonInner
+  a:hover {
+  background-color: #ffffff;
+  color: #4d4d4d;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerButton
+  .bothExperienceIwBIBgImageInnerRightInnerButtonInner
+  a
+  span {
+  display: inline-flex;
+}
+
+#bothExperience
+  .bothExperienceInner
+  .bothExperienceInnerWrapper
+  .bothExperienceInnerWrapperBody
+  .bothExperienceInnerWrapperBodyInner
+  .bothExperienceIwBIBgImage
+  .bothExperienceIwBIBgImageInner
+  .bothExperienceIwBIBgImageInnerRight
+  .bothExperienceIwBIBgImageInnerRightInner
+  .bothExperienceIwBIBgImageInnerRightInnerButton
+  .bothExperienceIwBIBgImageInnerRightInnerButtonInner
+  a
+  span:nth-child(2)
+  svg {
+  width: 18px;
+  height: auto;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1024px) {
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner
+    .bothExperienceIwBIBgImageInnerLeftInnerTitle
+    h2 {
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner
+    .bothExperienceIwBIBgImageInnerLeftInnerTitle
+    h2 {
+    font-size: 50px;
+    line-height: 1.1em;
+  }
+
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner {
+    align-content: flex-start;
+    min-height: 246px;
+    padding: 25px;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner
+    .bothExperienceIwBIBgImageInnerLeftInnerTitle {
+    margin-bottom: 0px;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft {
+    width: 100%;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner
+    .bothExperienceIwBIBgImageInnerLeftInnerPara {
+    display: none;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner
+    .bothExperienceIwBIBgImageInnerLeftInnerButton {
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerRight {
+    width: 100%;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerRight
+    .bothExperienceIwBIBgImageInnerRightInner {
+    padding: 25px;
+    min-height: 246px;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerRight
+    .bothExperienceIwBIBgImageInnerRightInner
+    .bothExperienceIwBIBgImageInnerRightInnerPara {
+    display: none;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerRight
+    .bothExperienceIwBIBgImageInnerRightInner
+    .bothExperienceIwBIBgImageInnerRightInnerButton {
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerLeft
+    .bothExperienceIwBIBgImageInnerLeftInner
+    .bothExperienceIwBIBgImageInnerLeftInnerButton
+    .bothExperienceIwBIBgImageInnerLeftInnerButtonInner
+    a:hover {
+    background-color: #000;
+    color: #ffffff;
+  }
+  #bothExperience
+    .bothExperienceInner
+    .bothExperienceInnerWrapper
+    .bothExperienceInnerWrapperBody
+    .bothExperienceInnerWrapperBodyInner
+    .bothExperienceIwBIBgImage
+    .bothExperienceIwBIBgImageInner
+    .bothExperienceIwBIBgImageInnerRight
+    .bothExperienceIwBIBgImageInnerRightInner
+    .bothExperienceIwBIBgImageInnerRightInnerButton
+    .bothExperienceIwBIBgImageInnerRightInnerButtonInner
+    a:hover {
+    background-color: #000;
+    color: #ffffff;
+  }
+}

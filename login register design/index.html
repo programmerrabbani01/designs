@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- box icons -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css" />
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+  
+
+    <!-- <section id="login">
+      <div class="loginInner">
+        <form>
+          <h1>Login Here</h1>
+
+          <div class="inputBox">
+            <div class="inputField">
+              <input type="email" placeholder="Email" required />
+              <i class="bx bxs-envelope"></i>
+            </div>
+            <div class="inputField">
+              <i class="bx bxs-lock-alt"></i>
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+                required
+              />
+              <span class="eye" onclick="showPass()">
+                <i id="hide" class="fa-solid fa-eye-slash"></i>
+                <i id="open" class="fa-solid fa-eye"></i>
+              </span>
+            </div>
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </section> -->
+
+    <!-- <script>
+      function showPass() {
+        var x = document.getElementById("password");
+        var y = document.getElementById("open");
+        var z = document.getElementById("hide");
+        if (x.type === "password") {
+          x.type = "text";
+          y.style.display = "block";
+          z.style.display = "none";
+        } else {
+          x.type = "password";
+          y.style.display = "none";
+          z.style.display = "block";
+        }
+      }
+    </script> -->
+
+    <section id="register">
+      <div class="registerInner">
+        <form>
+          <h1>Registration</h1>
+          <div class="inputBox">
+            <div class="inputField">
+              <input type="text" placeholder="Full Name" required />
+              <i class="bx bxs-user"></i>
+            </div>
+            <div class="inputField">
+              <input type="text" placeholder="User Name" required />
+              <i class="bx bxs-user"></i>
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="inputField">
+              <input type="email" placeholder="Email" required />
+              <i class="bx bxs-envelope"></i>
+            </div>
+            <div class="inputField">
+              <input type="number" placeholder="Phone Number" required />
+              <i class="bx bxs-phone"></i>
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="inputField">
+              <i class="bx bxs-lock-alt"></i>
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+                required
+              />
+              <span
+                class="eye"
+                onclick="showPass('password', 'open1', 'hide1')"
+              >
+                <i id="hide1" class="fa-solid fa-eye-slash"></i>
+                <i id="open1" class="fa-solid fa-eye"></i>
+              </span>
+            </div>
+            <div class="inputField">
+              <i class="bx bxs-lock-alt"></i>
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="confirmPassword"
+                required
+              />
+              <span
+                class="eye"
+                onclick="showPass('confirmPassword', 'open2', 'hide2')"
+              >
+                <i id="hide2" class="fa-solid fa-eye-slash"></i>
+                <i id="open2" class="fa-solid fa-eye"></i>
+              </span>
+            </div>
+          </div>
+          <label
+            ><input type="checkbox" />I hereby declare that the above
+            information provided is true and correct</label
+          >
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+    </section>
+    <script>
+      function showPass(passwordFieldId, openId, hideId) {
+        var x = document.getElementById(passwordFieldId);
+        var y = document.getElementById(openId);
+        var z = document.getElementById(hideId);
+        if (x.type === "password") {
+          x.type = "text";
+          y.style.display = "block";
+          z.style.display = "none";
+        } else {
+          x.type = "password";
+          y.style.display = "none";
+          z.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

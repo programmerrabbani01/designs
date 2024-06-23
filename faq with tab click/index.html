@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="faq-header-wrp faq-header-{{ section.id }}">
+        <div class="faq-header-content">
+          <h1>{{ section.settings.header }}</h1>
+          <p>{{ section.settings.para }}</p>
+        </div>
+        
+          <div class="links-wrp">&nbsp;
+            {% for drop in section.blocks %}
+              {% if drop.settings.faqHeader %}
+            <a href="#{{ forloop.index }}">{{ drop.settings.faqHeader }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        
+      </div>
+      
+      
+       {% for block in section.blocks %}
+      <div class="faq-wrp faq-{{ section.id }}" id="{{ forloop.index }}">
+        <div class="faq-content">
+          <div class="faq-header">
+            <h1 style="color:{{ block.settings.faqHeaderColor }}">{{ block.settings.faqHeader }}</h1>
+          </div>
+          <div class="faq-drpdwns-wrp">
+             {% if block.settings.itemOneHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemOneHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemOnePara }}</p></div>
+                </div>
+              </div>
+            {% endif %}
+            {% if block.settings.itemTwoHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemTwoHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemTwoPara }}</p></div>
+                </div>
+              </div>
+              {% endif %}
+            {% if block.settings.itemThreeHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemThreeHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemThreePara }}</p></div>
+                </div>
+              </div>
+              {% endif %}
+            {% if block.settings.itemFourHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemFourHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemFourPara }}</p></div>
+                </div>
+              </div>
+              {% endif %}
+            {% if block.settings.itemFiveHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemFiveHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemFivePara }}</p></div>
+                </div>
+              </div>
+              {% endif %}
+            {% if block.settings.itemSixHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemSixHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemSixPara }}</p></div>
+                </div>
+              </div>
+            {% endif %}
+              {% if block.settings.itemSevenHeader != blank %}
+              <div class="faq-drpdwn">
+                <div class="plus-minus">
+                  <span class="first-line"></span>
+                  <span class="second-line"></span>
+                </div>
+                <div class="drpdwn-content">
+                  <h1 class="drpdwn-title">{{ block.settings.itemSevenHeader }}</h1>
+                  <div class="drpdwn-copy"><p>{{ block.settings.itemSevenPara }}</p></div>
+                </div>
+              </div>
+               {% endif %} 
+          </div>
+        </div>
+      </div>
+      {% endfor %} 
+      
+        <script>
+          $(function(){
+            let faqSections = $('.faq-wrp').length;
+            let sectionTitles = [];
+            $('.faq-wrp').each(function(i, obj){
+              sectionTitles.push($(this).attr('id'));
+              // $('.faq-header-{{ section.id }} .links-wrp').append(`<a href="#${$(this).attr('id')}">${$(this).attr('id').split('-').join(' ')}</a>`);
+            })
+            $("a[href^='#']").click(function(e) {   
+              e.preventDefault();   
+              var dest = $(this).attr('href');   
+              $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); 
+            });
+          });
+        </script>
+      
+        <script>
+          $(document).ready(function(){
+            $(".faq-drpdwn").unbind().click( function() {   
+              $(this).toggleClass('active');
+              $(this).find('.drpdwn-copy').slideToggle();
+            });
+          })
+        </script>
+      
+</body>
+</html>

@@ -1,0 +1,1615 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* mostFun start */
+#mostFun {
+  background: no-repeat scroll center center/cover;
+  min-height: 941px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+#mostFun .mostFunColumnsBody {
+  min-height: 941px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+}
+/* #mostFun .mostFunColumnsBody .mFCBodyFirst {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+} */
+#mostFun .mostFunColumnsBody .mFCBodyFirst .mFCBodyFirstContent {
+  display: inline-block;
+  width: 100%;
+}
+
+#mostFun .mostFunColumnsBody .mFCBodyFirst .mFCBodyFirstInner {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerOne {
+  width: 50%;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerOne
+  .mFCBodyFirstIOneInner {
+  padding: 20px;
+  height: 100%;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo {
+  width: 50%;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo
+  .mFCBodyFirstITwoInner {
+  padding: 20px;
+  height: 100%;
+  align-items: flex-start;
+  display: flex;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo
+  .mFCBodyFirstITwoInner
+  .mFCBodyFirstITwoIContent
+  .mFCBodyFirstITwoIContentBody
+  .mFCBodyFirstITwoIContentBodyFirst
+  h2 {
+  font-size: 48px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: -1.8px;
+  color: #fff;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo
+  .mFCBodyFirstITwoInner
+  .mFCBodyFirstITwoIContent
+  .mFCBodyFirstITwoIContentBody
+  .mFCBodyFirstITwoIContentBodyBorder {
+  margin-top: 20px;
+  border: 1px solid #ffffff40;
+  width: 71%;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo
+  .mFCBodyFirstITwoInner
+  .mFCBodyFirstITwoIContent
+  .mFCBodyFirstITwoIContentBody
+  .mFCBodyFirstITwoIContentBodySecond
+  h2 {
+  font-size: 48px;
+  font-family: "PP Charlevoix" !important;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: -1.8px;
+  color: #fff;
+  padding-top: 10px;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo
+  .mFCBodyFirstITwoInner
+  .mFCBodyFirstITwoIContent
+  .mFCBodyFirstITwoIContentBody
+  .mFCBodyFirstITwoIContentBodyThird
+  h2 {
+  font-size: 48px;
+  font-family: "PP Charlevoix" !important;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: -1.8px;
+  color: #fff;
+  padding-top: 10px;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodyFirst
+  .mFCBodyFirstInner
+  .mFCBodyFirstInnerTwo
+  .mFCBodyFirstITwoInner
+  .mFCBodyFirstITwoIContent
+  .mFCBodyFirstITwoIContentBody
+  .mFCBodyFirstITwoIContentBodyText
+  h2 {
+  margin-top: 33px;
+  font-size: 20px;
+  font-family: "PP Charlevoix" !important;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  color: #fff;
+}
+
+#mostFun .mostFunColumnsBody .mFCBodySecond {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+#mostFun .mostFunColumnsBody .mFCBodySecond .mFCBodySecondInner {
+  max-width: 1176px;
+  margin: 0 auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem {
+  width: 16.67%;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner {
+  padding: 5px;
+  display: flex;
+  width: 100%;
+  min-height: 20px;
+  height: 100%;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner
+  .mFCBodySecondInnerItemInnerContent {
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner
+  .mFCBodySecondInnerItemInnerContent
+  .mFCBodySecondInnerItemInnerContentDetails {
+  display: grid;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner
+  .mFCBodySecondInnerItemInnerContent
+  .mFCBodySecondInnerItemInnerContentDetails
+  .mFCBSIIICDetailsIcon {
+  text-align: center;
+  justify-content: center;
+}
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner
+  .mFCBodySecondInnerItemInnerContent
+  .mFCBodySecondInnerItemInnerContentDetails
+  .mFCBSIIICDetailsIcon
+  svg {
+  width: 50px;
+  height: 50px;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner
+  .mFCBodySecondInnerItemInnerContent
+  .mFCBodySecondInnerItemInnerContentDetails
+  .mFCBSIIICDetailsText {
+  text-align: center;
+  justify-content: center;
+  padding-top: 14px;
+}
+
+#mostFun
+  .mostFunColumnsBody
+  .mFCBodySecond
+  .mFCBodySecondInner
+  .mFCBodySecondInnerItem
+  .mFCBodySecondInnerItemInner
+  .mFCBodySecondInnerItemInnerContent
+  .mFCBodySecondInnerItemInnerContentDetails
+  .mFCBSIIICDetailsText
+  h2 {
+  font-size: 22px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  color: #fff;
+  line-height: 28.6px;
+  letter-spacing: 0.6px;
+}
+/* mostFun end */
+
+/* evolved start */
+
+#evolved {
+  background: url("https://i.ibb.co/P42ZrCw/Shop-now-Bg.jpg") no-repeat scroll
+    center center/cover #cbc5d3;
+  min-height: 680px;
+  width: 100%;
+  height: 100%;
+}
+#evolved .evolvedColumns {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#evolved .evolvedColumns .evolvedColumnsLeft {
+  width: 50%;
+}
+#evolved .evolvedColumns .evolvedColumnsLeft .evolvedColumnsLeftInner {
+  padding: 48px;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks {
+  min-height: 680px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyHeader
+  h2 {
+  font-size: 69px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.7px;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyPara {
+  margin-top: 30px;
+  margin-bottom: 21px;
+  font-size: 22px;
+  font-family: PPCharlevoix-Regular;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: #000;
+  letter-spacing: 0.06rem;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyButton {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyButton
+  a {
+  font-style: normal;
+  text-decoration: none;
+  color: #4d4d4d;
+  background: #dff59a;
+  border-radius: 30px;
+  gap: 26px;
+  padding: 12px 34px 12px 44px;
+  display: inline-flex;
+  align-items: center;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyButton
+  a
+  span {
+  display: inline-flex;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyButton
+  a
+  span:nth-child(2)
+  svg {
+  width: 18px;
+  height: auto;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyBottom {
+  margin-top: 5px;
+  padding-left: 24px;
+  width: 100%;
+  height: fit-content;
+}
+#evolved
+  .evolvedColumns
+  .evolvedColumnsLeft
+  .evolvedColumnsLeftInner
+  .evolvedColumnsLeftInnerBlocks
+  .evolvedColumnsLeftInnerBlocksBody
+  .evolvedColumnsLeftInnerBlocksBodyBottom
+  .ecLiBbbText {
+  font-size: 10px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+}
+#evolved .evolvedColumns .evolvedColumnsRight {
+  width: 50%;
+}
+
+/* evolved end */
+
+/* experience start */
+
+#experience {
+  /* background: linear-gradient(129deg, #c6c0ca, #cec8d6 47%, #adadcb); */
+  background-color: #cdc7d5;
+  width: 100%;
+}
+#experience .experienceColumns {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#experience .experienceColumns .experienceColumnsWrapper {
+  padding: 10px;
+  margin: 30px;
+  height: 100%;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsHeader {
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsHeader
+  .experienceColumnsHeaderContent {
+  padding: 39px 10px 0;
+  margin-bottom: 10px;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsHeader
+  .experienceColumnsHeaderContent
+  h2 {
+  font-size: 69px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.7px;
+  color: #121212;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner {
+  margin-top: -88px;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst {
+  width: 33.33%;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner {
+  padding: 25px;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner
+  .experienceCMIInnerCFirstIImage
+  a
+  img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner
+  .experienceCMIInnerCFirstIButton {
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner
+  .experienceCMIInnerCFirstIButton
+  .experienceCMIInnerCFirstIButtonInner {
+  display: flex;
+  justify-content: center;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner
+  .experienceCMIInnerCFirstIButton
+  .experienceCMIInnerCFirstIButtonInner
+  a {
+  font-style: normal;
+  text-decoration: none;
+  color: #4d4d4d;
+  background: #dff59a;
+  border-radius: 30px;
+  gap: 26px;
+  padding: 12px 34px 12px 44px;
+  display: inline-flex;
+  align-items: center;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner
+  .experienceCMIInnerCFirstIButton
+  .experienceCMIInnerCFirstIButtonInner
+  a
+  span {
+  display: inline-flex;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsMiddleImage
+  .experienceCMIInner
+  .experienceCMIInnerContent
+  .experienceCMIInnerCFirst
+  .experienceCMIInnerCFirstInner
+  .experienceCMIInnerCFirstIButton
+  .experienceCMIInnerCFirstIButtonInner
+  a
+  span:nth-child(2)
+  svg {
+  width: 18px;
+  height: auto;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner {
+  margin-top: -75px;
+  width: 100%;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent {
+  width: 50%;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper {
+  padding: 25px;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentImage {
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentImage
+  .experienceCBiICContentImageInner {
+  display: flex;
+  justify-content: center;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentImage
+  .experienceCBiICContentImageInner
+  a
+  img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  overflow: hidden;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentButton {
+  display: block;
+  margin-top: -30px;
+  width: 100%;
+  height: fit-content;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentButton
+  .experienceCBiICContentButtonInner {
+  display: flex;
+  justify-content: center;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentButton
+  .experienceCBiICContentButtonInner
+  a {
+  font-style: normal;
+  text-decoration: none;
+  color: #4d4d4d;
+  background: #dff59a;
+  border-radius: 30px;
+  gap: 26px;
+  padding: 12px 34px 12px 44px;
+  display: inline-flex;
+  align-items: center;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentButton
+  .experienceCBiICContentButtonInner
+  a
+  span:nth-child(2)
+  svg {
+  width: 18px;
+  height: auto;
+}
+#experience
+  .experienceColumns
+  .experienceColumnsWrapper
+  .experienceColumnsBottomImage
+  .experienceColumnsBottomImageInner
+  .experienceColumnsBottomImageInnerColumns
+  .experienceCBiICContent
+  .experienceCBiICContentWrapper
+  .experienceCBiICContentButton
+  .experienceCBiICContentButtonInner
+  a
+  span {
+  display: inline-flex;
+}
+
+/* experience end */
+
+/* formulaized start */
+
+#formulaized {
+  background: url("https://i.ibb.co/Pt7BP3w/BREZ-BG-Bottom.jpg") no-repeat
+    scroll center center/cover #f6edf1;
+  min-height: 807px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 30px;
+}
+
+#formulaized .formulaizedColumns {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#formulaized .formulaizedColumns .formulaizedColumnsWrapper {
+  padding: 88px 61px 77px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  position: relative;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner {
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+  padding: 5px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerHeader {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerHeader
+  h2 {
+  font-size: 69px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.7px;
+  color: #121212;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle {
+  margin-top: 20px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper {
+  padding: 20px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper
+  .fCWBodyIMWTitle {
+  padding-bottom: 17px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper
+  .fCWBodyIMWTitle
+  h2 {
+  font-size: 30px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper
+  .fCWBodyIMWMiddleCont {
+  margin-top: 20px;
+}
+
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper
+  .fCWBodyIMWMiddleCont
+  img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper
+  .fCWBodyIMWMiddleCont
+  img.imageTwo {
+  display: none;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerMiddle
+  .fCWBodyInnerMiddleWrapper
+  .fCWBodyIMWBottomText {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: PPCharlevoix-Regular;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #000;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper {
+  margin-top: -2px;
+  padding: 20px;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomTitle {
+  padding-bottom: 14px;
+  width: 100%;
+  height: fit-content;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomTitle
+  h2 {
+  font-size: 30px;
+  font-family: "PP Charlevoix";
+  font-weight: 400;
+  color: #121212;
+  line-height: 39px;
+  letter-spacing: 0.6px;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomImage {
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomImage
+  img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomPara {
+  margin-top: 15px;
+  margin-bottom: 2px;
+  width: 100%;
+  height: fit-content;
+  font-size: 20px;
+  font-family: PPCharlevoix-Regular;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0.6px;
+  color: #000;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomButton {
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomButton
+  a {
+  font-style: normal;
+  text-decoration: none;
+  color: #4d4d4d;
+  background: #dff59a;
+  border-radius: 30px;
+  gap: 26px;
+  padding: 12px 34px 12px 44px;
+  display: inline-flex;
+  align-items: center;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomButton
+  a
+  span {
+  display: inline-flex;
+}
+#formulaized
+  .formulaizedColumns
+  .formulaizedColumnsWrapper
+  .formulaizedColumnsWrapperBody
+  .fCWBodyInner
+  .fCWBodyInnerBottom
+  .fCWBodyInnerBottomWrapper
+  .fCWBodyInnerBottomBody
+  .fCWBodyInnerBottomButton
+  a
+  span:nth-child(2)
+  svg {
+  width: 18px;
+  height: auto;
+}
+
+/* formulaized end */
+
+/* responsive */
+
+/* evolved */
+
+/* @media only screen and (max-width: 991px) {
+  #evolved
+    .evolvedColumns
+    .evolvedColumnsLeft
+    .evolvedColumnsLeftInner
+    .evolvedColumnsLeftInnerBlocks
+    .evolvedColumnsLeftInnerBlocksBody
+    .evolvedColumnsLeftInnerBlocksBodyHeader
+    h2 {
+    font-size: 43px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+  #evolved
+    .evolvedColumns
+    .evolvedColumnsLeft
+    .evolvedColumnsLeftInner
+    .evolvedColumnsLeftInnerBlocks
+    .evolvedColumnsLeftInnerBlocksBody
+    .evolvedColumnsLeftInnerBlocksBodyPara {
+    font-size: 18px;
+  }
+
+  #evolved .evolvedColumns .evolvedColumnsLeft .evolvedColumnsLeftInner {
+    padding: 31px;
+  }
+} 
+
+ @media only screen and (max-width: 767px) {
+  #evolved {
+    background: url("https://i.ibb.co/6Z1ztFF/Asset-15.png") no-repeat scroll
+      top center/cover;
+  }
+  #evolved
+    .evolvedColumns
+    .evolvedColumnsLeft
+    .evolvedColumnsLeftInner
+    .evolvedColumnsLeftInnerBlocks {
+    min-height: 388px;
+  }
+
+  #evolved .evolvedColumns .evolvedColumnsLeft .evolvedColumnsLeftInner {
+    padding: 22px;
+  }
+
+  #evolved .evolvedColumns .evolvedColumnsLeft {
+    width: 100%;
+    text-align: center;
+  }
+  #evolved
+    .evolvedColumns
+    .evolvedColumnsLeft
+    .evolvedColumnsLeftInner
+    .evolvedColumnsLeftInnerBlocks
+    .evolvedColumnsLeftInnerBlocksBody
+    .evolvedColumnsLeftInnerBlocksBodyHeader {
+    margin: auto;
+  }
+  #evolved
+    .evolvedColumns
+    .evolvedColumnsLeft
+    .evolvedColumnsLeftInner
+    .evolvedColumnsLeftInnerBlocks
+    .evolvedColumnsLeftInnerBlocksBody
+    .evolvedColumnsLeftInnerBlocksBodyHeader
+    h2 {
+    font-size: 48px;
+  }
+  
+}   */
+
+/* evolved */
+
+/* experience */
+
+/* @media only screen and (max-width: 612px) {
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsHeader
+    .experienceColumnsHeaderContent
+    h2 {
+    text-align: center;
+  }
+} 
+
+ @media only screen and (max-width: 1024px) {
+  #experience .experienceColumns .experienceColumnsWrapper {
+    padding-bottom: 30px;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsHeader
+    .experienceColumnsHeaderContent
+    h2 {
+    font-size: 43px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsMiddleImage
+    .experienceCMIInner
+    .experienceCMIInnerContent
+    .experienceCMIInnerCFirst {
+    width: 50%;
+  }
+} 
+
+ @media only screen and (max-width: 767px) {
+  #experience .experienceColumns .experienceColumnsWrapper {
+    margin: 30px 0 !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsHeader
+    .experienceColumnsHeaderContent {
+    padding-top: 6px;
+  }
+
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsHeader
+    .experienceColumnsHeaderContent
+    h2 {
+    font-size: 48px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsMiddleImage
+    .experienceCMIInner {
+    margin-top: -95px;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsMiddleImage
+    .experienceCMIInner
+    .experienceCMIInnerContent
+    .experienceCMIInnerCFirst {
+    width: 100%;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsMiddleImage
+    .experienceCMIInner
+    .experienceCMIInnerContent
+    .experienceCMIInnerCFirst
+    .experienceCMIInnerCFirstInner {
+    margin-top: -40px;
+    padding: 0;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsMiddleImage
+    .experienceCMIInner
+    .experienceCMIInnerContent
+    .experienceCMIInnerCFirst
+    .experienceCMIInnerCFirstInner
+    .experienceCMIInnerCFirstIButton {
+    margin-top: -30px;
+  }
+
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsBottomImage
+    .experienceColumnsBottomImageInner
+    .experienceColumnsBottomImageInnerColumns
+    .experienceCBiICContent {
+    width: 100%;
+  }
+  #experience
+    .experienceColumns
+    .experienceColumnsWrapper
+    .experienceColumnsBottomImage
+    .experienceColumnsBottomImageInner
+    .experienceColumnsBottomImageInnerColumns
+    .experienceCBiICContent
+    .experienceCBiICContentWrapper {
+    padding: 0px;
+  }
+}  */
+
+/* experience */
+
+/* formulaized */
+
+/* @media only screen and (max-width: 1024px) {
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerHeader
+    h2 {
+    font-size: 43px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+} 
+
+ @media only screen and (max-width: 767px) {
+  #formulaized .formulaizedColumns .formulaizedColumnsWrapper {
+    padding: 47px 15px 24px 20px;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerHeader {
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerHeader
+    h2 {
+    font-size: 48px;
+  }
+
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerMiddle
+    .fCWBodyInnerMiddleWrapper
+    .fCWBodyIMWTitle
+    h2 {
+    font-size: 26px;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerMiddle
+    .fCWBodyInnerMiddleWrapper
+    .fCWBodyIMWTitle {
+    margin-top: 40px;
+    text-align: center;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerMiddle
+    .fCWBodyInnerMiddleWrapper
+    .fCWBodyIMWMiddleCont
+    img.imageOne {
+    display: none;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerMiddle
+    .fCWBodyInnerMiddleWrapper
+    .fCWBodyIMWMiddleCont
+    img.imageTwo {
+    display: block;
+  }
+
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerMiddle
+    .fCWBodyInnerMiddleWrapper {
+    padding: 0px;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerMiddle
+    .fCWBodyInnerMiddleWrapper
+    .fCWBodyIMWBottomText {
+    text-align: center;
+  }
+
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerBottom {
+    margin-top: 36px;
+    text-align: center;
+  }
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerBottom
+    .fCWBodyInnerBottomWrapper
+    .fCWBodyInnerBottomBody
+    .fCWBodyInnerBottomTitle {
+    margin-top: 19px;
+  }
+
+  #formulaized
+    .formulaizedColumns
+    .formulaizedColumnsWrapper
+    .formulaizedColumnsWrapperBody
+    .fCWBodyInner
+    .fCWBodyInnerBottom
+    .fCWBodyInnerBottomWrapper
+    .fCWBodyInnerBottomBody
+    .fCWBodyInnerBottomTitle
+    h2 {
+    font-size: 26px;
+  }
+}  */
+
+/* formulaized */
+
+/* mostFun */
+
+@media only screen and (max-width: 1024px) {
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodyFirst
+    h2 {
+    font-size: 30px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodySecond
+    h2 {
+    font-size: 30px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodyThird
+    h2 {
+    font-size: 30px;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #mostFun {
+    background: url("https://i.ibb.co/T1Wvq80/Can-Scene-1-Portrait0050-0-00-00-00-5e11891c-1bc7-4b69-a195-582ad5dd3705.jpg")
+      no-repeat scroll top center/contain !important;
+    background-color: #c7c7c9 !important;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerOne {
+    width: 100%;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo {
+    width: 100%;
+    text-align: center;
+  }
+
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodyFirst
+    h2 {
+    font-size: 32px;
+    margin-top: 283px;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodySecond
+    h2 {
+    font-size: 32px;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodyThird
+    h2 {
+    font-size: 32px;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodyFirst
+    .mFCBodyFirstInner
+    .mFCBodyFirstInnerTwo
+    .mFCBodyFirstITwoInner
+    .mFCBodyFirstITwoIContent
+    .mFCBodyFirstITwoIContentBody
+    .mFCBodyFirstITwoIContentBodyText
+    h2 {
+    margin-top: 37px;
+    line-height: 1.2em;
+  }
+
+  #mostFun .mostFunColumnsBody .mFCBodySecond .mFCBodySecondInner {
+    flex-wrap: wrap;
+  }
+  #mostFun
+    .mostFunColumnsBody
+    .mFCBodySecond
+    .mFCBodySecondInner
+    .mFCBodySecondInnerItem {
+    width: 50%;
+  }
+}
+
+/* mostFun */
